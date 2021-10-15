@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+.App {
+  background-color: rgb(100, 100, 180);
+}
+
+.app.warm {
+  background-color: rgb(163, 163, 177);
+}
+
+main {
+  min-height: 100vh;
+  background-color: rgb(162, 162, 190);
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 auto 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgb(163, 163, 177);
+  border-radius: 0px 0px 16px 16px;
+}
